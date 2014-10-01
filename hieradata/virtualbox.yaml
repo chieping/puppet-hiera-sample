@@ -1,2 +1,4 @@
 ---
-sample::message: this is virtualbox hiera data!
+sample1::message: this is virtualbox hiera data!
+classes: sample2
+sample2::message: this is called by hiera_include
